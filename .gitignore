@@ -1,0 +1,49 @@
+# --- virtual envs ---
+.venv/
+venv/
+env/
+ENV/
+# poetry / pipenv
+.poetry/
+.pdm.toml
+Pipfile.lock
+
+# --- python caches ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.build/
+dist/
+.eggs/
+
+# --- node ---
+node_modules/
+npm-debug.log*
+yarn.lock
+pnpm-lock.yaml
+
+# --- IDE / OS files ---
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/launch.json
+!.vscode/tasks.json
+.idea/
+.DS_Store
+Thumbs.db
+
+# --- environment & secrets ---
+.pairs_trading_env
+.env
+.env.*
+*.local
+*.secret
+*.key
+*.pem
+
+# --- misc ---
+coverage/
+.cache/
